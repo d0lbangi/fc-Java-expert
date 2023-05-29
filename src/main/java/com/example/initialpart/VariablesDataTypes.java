@@ -58,5 +58,21 @@ public class VariablesDataTypes {
 
         System.out.println(s1);
         System.out.println(s2);
+
+        int iMax = 0x7f_ff_ff_ff;
+        int iiMax = Integer.MAX_VALUE;
+        int i11 = 0b0111_1111_1111_1111_1111_1111_1111_1111;
+
+        int i13 = i11 +1;
+        int i12 = 0b1000_0000_0000_0000_0000_0000_0000_0000;
+        int i14 = i12 -1;
+
+        System.out.println(iMax);
+        System.out.println(iiMax);
+        System.out.println(i11);
+        System.out.println(i12);
+        System.out.println(i13);
+
+        System.out.println(i14);
     }
 }
