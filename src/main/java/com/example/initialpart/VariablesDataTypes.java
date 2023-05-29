@@ -34,5 +34,29 @@ public class VariablesDataTypes {
         System.out.println(j1);
         System.out.println(j2);
         System.out.println(j1+j2);
+
+        long l1 = 0b0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0001; //1
+        long l2 = 0x00_00_00_00_00_00_00_01; //1
+        System.out.println(l1);
+        System.out.println(l2);
+
+        // 정수형 int의 최대값 최소값?
+        int i8 = 0b0111_1111_1111_1111_1111_1111_1111_1111;
+        int i9 = 0b1000_0000_0000_0000_0000_0000_0000_0000;
+
+        System.out.println(i8);
+        System.out.println(i9);
+
+        int ii1 = Integer.MAX_VALUE;
+        int ii2 = Integer.MIN_VALUE;
+
+        System.out.println(ii1);
+        System.out.println(ii2);
+
+        short s1 = 0b0000_0000_0000_1100;
+        short s2 = (short) 0b1111_1111_1111_0100;
+
+        System.out.println(s1);
+        System.out.println(s2);
     }
 }
